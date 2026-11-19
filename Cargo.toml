@@ -1,0 +1,11 @@
+[package]
+name = "todo_manager"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+chrono = "0.4"
+uuid = { version = "1.29.3", features = ["v4"] }
+
+[dev-dependencies]
+serial_test = "3.5.0"
